@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "595250405047baea0a178394ce4b8555",
+    "content-hash": "68b68b851acc7be1f4d18770cbcba2b3",
     "packages": [
         {
             "name": "blade-ui-kit/blade-heroicons",
@@ -284,6 +284,80 @@
                 }
             ],
             "time": "2024-02-09T16:56:22+00:00"
+        },
+        {
+            "name": "caresome/filament-neobrutalism-theme",
+            "version": "v2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/caresome/filament-neobrutalism-theme.git",
+                "reference": "be21a3e8ee11324f2d002eddcfd170acebb62fa4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/caresome/filament-neobrutalism-theme/zipball/be21a3e8ee11324f2d002eddcfd170acebb62fa4",
+                "reference": "be21a3e8ee11324f2d002eddcfd170acebb62fa4",
+                "shasum": ""
+            },
+            "require": {
+                "filament/filament": "^4.0 || ^5.0",
+                "illuminate/contracts": "^11.0||^12.0||^13.0",
+                "php": "^8.2|^8.3|^8.4|^8.5",
+                "spatie/laravel-package-tools": "^1.16"
+            },
+            "require-dev": {
+                "larastan/larastan": "^3.0",
+                "laravel/pint": "^1.14",
+                "nunomaduro/collision": "^8.8",
+                "orchestra/testbench": "^10.0.0||^9.0.0",
+                "pestphp/pest": "^4.0",
+                "pestphp/pest-plugin-arch": "^4.0",
+                "pestphp/pest-plugin-laravel": "^4.0",
+                "phpstan/extension-installer": "^1.4",
+                "phpstan/phpstan-deprecation-rules": "^2.0",
+                "phpstan/phpstan-phpunit": "^2.0",
+                "rector/rector": "^2.2",
+                "spatie/laravel-ray": "^1.35"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Caresome\\FilamentNeobrutalism\\NeobrutalismeServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Caresome\\FilamentNeobrutalism\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Caresome",
+                    "email": "caresome@proton.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A neobrutalism theme for FilamentPHP admin panels",
+            "homepage": "https://github.com/caresome/filament-neobrutalism-theme",
+            "keywords": [
+                "caresome",
+                "filament",
+                "filament-plugin",
+                "filament-theme",
+                "laravel",
+                "neobrutalism"
+            ],
+            "support": {
+                "issues": "https://github.com/caresome/filament-neobrutalism-theme/issues",
+                "source": "https://github.com/caresome/filament-neobrutalism-theme/tree/v2.1.0"
+            },
+            "time": "2026-04-08T00:36:44+00:00"
         },
         {
             "name": "chillerlan/php-qrcode",
@@ -3961,65 +4035,6 @@
                 }
             ],
             "time": "2026-02-16T23:10:27+00:00"
-        },
-        {
-            "name": "openplain/filament-shadcn-theme",
-            "version": "v1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/openplain/filament-shadcn-theme.git",
-                "reference": "e4918c8a34d6089326af25d21ff26ed069f0d05a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/openplain/filament-shadcn-theme/zipball/e4918c8a34d6089326af25d21ff26ed069f0d05a",
-                "reference": "e4918c8a34d6089326af25d21ff26ed069f0d05a",
-                "shasum": ""
-            },
-            "require": {
-                "filament/filament": "^4.0|^5.0",
-                "php": "^8.2|^8.3|^8.4"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Openplain\\FilamentShadcnTheme\\FilamentShadcnThemeServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Openplain\\FilamentShadcnTheme\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Openplain",
-                    "email": "hello@openplain.dev"
-                }
-            ],
-            "description": "Shadcn UI theme for Filament - Beautiful color themes with the iconic Shadcn design system",
-            "homepage": "https://github.com/openplain/filament-shadcn-theme",
-            "keywords": [
-                "colors",
-                "dark-mode",
-                "filament",
-                "filament-theme",
-                "light-mode",
-                "shadcn",
-                "shadcn-ui",
-                "theme"
-            ],
-            "support": {
-                "issues": "https://github.com/openplain/filament-shadcn-theme/issues",
-                "source": "https://github.com/openplain/filament-shadcn-theme/tree/v1.1.0"
-            },
-            "time": "2026-01-19T14:22:59+00:00"
         },
         {
             "name": "openspout/openspout",
